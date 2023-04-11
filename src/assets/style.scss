@@ -1,0 +1,21 @@
+.btn {
+    padding: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: .2s;
+    &_blue {
+        background: #2c56e3;
+        color: #fff;
+        &:hover {
+            background: rgb(50, 74, 160);
+        }
+    }
+}
+.container {
+    max-width: 1410px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;
+}
