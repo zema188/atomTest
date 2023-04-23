@@ -5,11 +5,12 @@
     align-items: center;
     text-align: center;
     transition: .2s;
+    cursor: pointer;
     &_blue {
-        background: #2c56e3;
+        background: #8facd8;
         color: #fff;
         &:hover {
-            background: rgb(50, 74, 160);
+            background: #78acfc;
         }
     }
 }

@@ -29,6 +29,7 @@
       :message="message"
       />
   </TheModal>
+  <TheTable/>
   <router-view/>
 </template>
 
@@ -38,12 +39,13 @@ import TheModal from '@/components/TheModal.vue';
 import RegistrationModal from '@/components/RegistrationModal.vue';
 import AuthorizationModal from '@/components/AuthorizationModal.vue';
 import AlertMessage from '@/components/AlertMessage.vue';
-
+import TheTable from '@/components/table/TheTable.vue';
 
 
 export default {
   components: {
-    TheHeader, TheModal,RegistrationModal,AuthorizationModal,AlertMessage
+    TheHeader,TheModal,RegistrationModal,
+    AuthorizationModal,AlertMessage,TheTable
   },
   data() {
     return {
